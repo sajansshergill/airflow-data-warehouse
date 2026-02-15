@@ -115,6 +115,7 @@ Tasks:
 ```bash
 git clone <repo-url>
 cd airflow-crypto-warehouse
+```
 
 2. Start services
 docker compose up -d
@@ -146,3 +147,12 @@ ORDER BY ts DESC
 LIMIT 20;
 
 ## 📈 Possible Extensions
+- Add raw staging table for replay
+- Add watermark pipeline state tracking
+- dbt transformation layer
+- Dashboard with Metabase/Superset
+- Slack/email alerts
+- Historical backfills
+- Additional crypto assets
+- Partitioned warehouse tables
+- Cloud deployment (AWS/GCP)
